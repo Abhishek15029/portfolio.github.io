@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <style>
+        .fbx{
+            /* height: 90vh; */
+            display: inline-block;
+            /* background-color: #FFC72C; */
+            /* background: rgb(148,147,145); */
+/* background: linear-gradient(171deg, rgba(148,147,145,1) 0%, rgba(255,181,34,1) 74%); */
+  background-image: linear-gradient( 68.4deg,  rgba(99,251,215,1) -0.4%, rgba(5,222,250,1) 100.2% );
+        }
+        .box{
+            /* margin: 2vw; */
+            padding: 0;
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* display: flex; */
+        }
+        .pr{
+            margin: 1rem;
+            font-size: larger;
+            /* float: left; */
+        }
+        .navbar{
+            float: right;
+        }
+        nav ul {
+            margin-top: -29px;
+            margin-right: 5px;
+            display: flex;
+            list-style: none;
+            /* float: right; */
+        }
+        ul li a{
+            text-decoration: none;
+            padding: 1rem;
+            margin-right: 10px;
+            color: black;
+        }
+        ul li a:hover{
+            border-bottom: 2px solid black;
+            border-bottom-style: double;
+            color: rgba(0, 0, 0, 0.616);
+        }
+        .about{
+            /* float: left; */
+            margin: 8vw 7vw;
+            margin-right: 100vh;
+    font-size: larger;
+        }
+        .pic{
+        float: right;
+    height: 320px;
+    width: 330px;
+    margin-right: -375px;
+    margin-top: 7%;
+    background-color: aquamarine;
+    background-image: url('image/Kingsman1.png');
+    border: 2px solid black;
+    border-radius: 54%;
+        }
+        .submit1{
+    height: 36px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: #34e27ea8;
+     }
+     @media (max-width: 1000px) {
+         .fbx{
+            /* width:max-content; */
+             display: grid;
+         }
+         .about{
+             margin: auto;
+    margin-left: 51px;
+    margin-right: 20px;
+         }
+         .pic{
+             margin-top: 10px;
+    height: 20rem;
+    margin: auto;
+    width: 20rem;
+}
+         }
+     @media (max-width: 400px) {
+         .fbx{
+             width: fit-content;
+             background-color: whitesmoke;
+         }
+         nav ul{    
+             margin-top: 0px;
+    display: block;
+    margin: 0 86px;
+    font-size: x-large;
+}
+.pr{
+    font-size: x-large;
+}
+         .pic{
+            height: 19rem;
+    width: 19rem;
+         }
+        }
+    </style>
+</head>
+<body>
+    <div class="fbx">
+    <div class="box">
+        <div class="pr">Portfolio</div>
+        <nav class="navbar">
+            <ul class="navul">
+                <li class="lists"><a href="#">Home</a></li>
+                <li class="lists"><a href="#">About</a></li>
+                <li class="lists"><a href="#">Services</a></li>
+                <li class="lists"><a href="#">Projects</a></li>
+                <li class="lists"><a href="#">Blog</a></li>
+                <li class="lists"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="pic"></div>
+    <div class="about">
+        <p>Hello!</p>
+        <p>My name is <strong class="name">Abhishek</strong></p>
+        <p>and I make templates through </p>
+        <p><strong class="topic">HTML CSS</strong></p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quia unde error minus sequi ea porro
+        molestias illum quis inventore cupiditate saepe officia incidunt dolore deleniti aut ullam sunt velit,
+        distinctio, suscipit nam aspernatur! <br> <br>
+        <input class="submit1" type="submit" value="Resume">
+    </div>
+    </div>
+</body>
+</html>
